@@ -1,0 +1,26 @@
+{
+    "name": "devfighters/php-crypter",
+    "description": "Crypter for PHP",
+    "type": "library",
+    "license": "MIT",
+    "keywords": ["php", "sodium", "chacha20", "poly1305", "encryption", "decryption", "crypt", "decrypt"],
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=8.2"
+    },
+    "require-dev": {
+       "phpunit/phpunit": "^10"
+    },
+
+    "authors": [
+        {
+            "name": "Dev Fighters"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DF\\Encryption\\": "src/"
+        }
+    }
+}
