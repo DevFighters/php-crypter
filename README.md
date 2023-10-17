@@ -22,7 +22,7 @@ Main file is ``\DF\Encryption\Crypter``
 
 ```php
     $key = **KEY_GENERATED**
-    $text = [**TEXT_TO_ENCRYPT**
+    $text = **TEXT_TO_ENCRYPT**
     $crypter = new Crypter($key);
     $encryptedText = $crypter->encrypt($text);
 ```
