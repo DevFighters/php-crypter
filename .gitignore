@@ -1,2 +1,6 @@
 /.phpunit.cache/
 /vendor/
+/phploc.phar
+/phploc.phar.1
+/composer.lock
+/.idea

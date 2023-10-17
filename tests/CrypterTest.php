@@ -1,6 +1,6 @@
 <?php
 
-use DevFighters\Encryption\Crypter;
+use DF\Encryption\Crypter;
 use PHPUnit\Framework\TestCase;
 
 class CrypterTest extends TestCase {
