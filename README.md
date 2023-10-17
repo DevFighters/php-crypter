@@ -21,8 +21,8 @@ Main file is ``\DF\Encryption\Crypter``
 2. Encrypt
 
 ```php
-    $key = [KEY_GENERATED]
-    $text = [TEXT_TO_ENCRYPT]
+    $key = **KEY_GENERATED**
+    $text = [**TEXT_TO_ENCRYPT**
     $crypter = new Crypter($key);
     $encryptedText = $crypter->encrypt($text);
 ```
@@ -30,8 +30,8 @@ Main file is ``\DF\Encryption\Crypter``
 3. Decrypt
 
 ```php
-    $key = [KEY_GENERATED]
-    $textEncrypted = [TEXT_TO_DECRYPT]
+    $key = **KEY_GENERATED**
+    $textEncrypted = **TEXT_TO_DECRYPT**
     $crypter = new Crypter($key);
     $encryptedText = $crypter->decrypt($textEncrypted);
 ```
@@ -39,8 +39,8 @@ Main file is ``\DF\Encryption\Crypter``
 * Additional : check if a string is encrypted or not 
 
 ```php
-    $key = [KEY_GENERATED]
-    $text = [TEXT_TO_DECRYPT]
+    $key = **KEY_GENERATED**
+    $text = **TEXT_TO_DECRYPT**
     $crypter = new Crypter($key);
     
     $crypter->isEncrypted($text);
