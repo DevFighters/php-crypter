@@ -15,7 +15,7 @@ Main file is ``\DF\Encryption\Crypter``
 
 1. Generate a key : the key needs to be saved, or you can't decrypt further.
 ```php
-    Crypter::generateKey()
+    $key = Crypter::generateKey()
 ```
 
 2. Encrypt
