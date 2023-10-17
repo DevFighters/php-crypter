@@ -50,12 +50,12 @@ Main file is ``\DF\Encryption\Crypter``
 All functions accessible
 ------------
 ```php
-    static function generateKey() : string
+    static function generateKey() : string;
     
-    function encrypt(string $textToEncrypt) : string
-    function decrypt(string $textEncrypted) : string
+    function encrypt(string $textToEncrypt) : string;
+    function decrypt(string $textEncrypted) : string;
     
-    function isEncrypted(string $textEncrypted) : bool 
-    function isNotEncrypted(string $textEncrypted) : bool
+    function isEncrypted(string $textEncrypted) : bool;
+    function isNotEncrypted(string $textEncrypted) : bool;
 ```
 
