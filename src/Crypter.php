@@ -13,9 +13,9 @@ final readonly class Crypter {
 
     public function __construct(private string $key){}
 
-    public function encrypt(string $data):string{
+    public function encrypt(string $textToEncrypt):string{
         $nonce = random_bytes($this->getNpuBytes());
-        $crypt = sodium_crypto_aead_xchacha20poly1305_ietf_encrypt($data, $nonce, $nonce, $this->getKey());
+        $crypt = sodium_crypto_aead_xchacha20poly1305_ietf_encrypt($text, $nonce, $nonce, $this->getKey());
         $textEncrypted = base64_encode($nonce).base64_encode($crypt);
         return $this->addSignature($textEncrypted);
     }
